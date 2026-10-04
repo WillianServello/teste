@@ -1,0 +1,7 @@
+*** Variables ***
+#SO PRA TESTAR E CONHECIMENTO
+${HELLO}    Olá, mundo!
+# iNVEZ DE COLOCAR EM LINE, FIZ UMA VARIAVEL QUE CONTÉM O LOCAL DO ELEMENTO, PARA PODER SER USADA EM OUTROS TESTES
+${LOCATION}    /Window/Pane/Document[@Name="Editor de texto"]
+
+${CLOSE}   /Window

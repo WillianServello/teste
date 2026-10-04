@@ -1,0 +1,8 @@
+Escolher um teste específico pelo nome
+py -m robot --test "Abrir Bloco de Notas" tests/notepad.robot
+
+Acho que geral
+robot tests/notepad.robot
+
+lista de keywords
+py -m robot.libdoc FlaUILibrary keywords.html
